@@ -65,15 +65,15 @@
                                     <img style="width: 50em;height: 25em;"
                                     src='{{"assets/images/EKG.png"}}' alt="item">
                                                                         
-                                    <a class="badge badge-primary" *ngFor="let item of pdfActions"
+                                    <!-- <a class="badge badge-primary" *ngFor="let item of pdfActions"
                                         (click)="handlingActions(item)" href="javascript:void(0)">
                                         <app-feather-icons [icon]="item.icon"></app-feather-icons>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
-                            <pdf-viewer [src]="pdfSrc" [(page)]="pageVariable" [render-text]="true"
+                            <!-- <pdf-viewer [src]="pdfSrc" [(page)]="pageVariable" [render-text]="true"
                                 [show-borders]="true" [zoom]="zoom" [original-size]="true" style="display: block;">
-                            </pdf-viewer>
+                            </pdf-viewer> -->
                         </div>
                     </ng-template>
                 </ngb-tab>
